@@ -11,3 +11,5 @@ else
     cp ${TEMPLATE} ${DAY_DIR}/part_2.py
     touch ${DAY_DIR}/day_${1}.in
 fi
+
+cd ${DAY_DIR}
