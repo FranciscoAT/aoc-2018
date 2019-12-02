@@ -1,5 +1,6 @@
 import math
 
+
 def main() -> None:
     total = 0
 
@@ -9,5 +10,6 @@ def main() -> None:
 
     print(total)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

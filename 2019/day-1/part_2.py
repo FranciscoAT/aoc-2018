@@ -1,5 +1,6 @@
 import math
 
+
 def main() -> None:
     total = 0
 
@@ -8,6 +9,7 @@ def main() -> None:
             total += get_fuel(int(module_num))
 
     print(total)
+
 
 def get_fuel(fuel_in: int) -> int:
     required_fuel = int(math.floor(fuel_in / 3.0) - 2)
@@ -18,5 +20,5 @@ def get_fuel(fuel_in: int) -> int:
     return required_fuel + get_fuel(required_fuel)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
