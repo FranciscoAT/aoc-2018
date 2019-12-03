@@ -6,7 +6,7 @@ def main() -> None:
         wire_a = create_wire_path(wires_file.readline())
         wire_b = create_wire_path(wires_file.readline())
 
-    print(find_closest_distance(wire_a, wire_b))
+    print(find_closest_signal(wire_a, wire_b))
 
 
 def create_wire_path(wire_in: str) -> List[Tuple[int, int]]:
@@ -35,7 +35,7 @@ def create_wire_path(wire_in: str) -> List[Tuple[int, int]]:
     return path
 
 
-def find_closest_distance(
+def find_closest_signal(
     wire_a: List[Tuple[int, int]], wire_b: List[Tuple[int, int]]
 ) -> int:
 
@@ -44,7 +44,7 @@ def find_closest_distance(
     closest_intersection = ()
 
     for intersection_point in intersection_points:
-        distance = abs(intersection_point[0]) + abs(intersection_point[1])
+        distance = wire_a.index(intersection_point) + wire_b.index(intersection_point) + 2
         if distance < closest_distance or closest_distance == -1:
             closest_intersection = intersection_point
             closest_distance = distance
