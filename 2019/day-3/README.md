@@ -2,7 +2,7 @@
 
 ### [Part one](./src/part_1.py)
 
-A step up from the previous two days but still not too bad today. Basically we are given a [path file](./day-3/day-3.in) which consists of a comma seperated list with values of the form "{U,P,L,R}{integer distance}" (ex. "R123"). We are given two lists one for each wire. The question then is find the closest interseciton to the origin using Manhattan Distance, where the itnersection is the intersection of the two wires. The solution I approached was to make a list of each (x,y) coordiante each wire had went through. Then to find the intersection points of each wire, iterate through those and return the closest one.
+A step up from the previous two days but still not too bad today. Basically we are given a [path file](./day-3/day-3.in) which consists of a comma seperated list with values of the form "{U,D,L,R}{integer distance}" (ex. "R123"). We are given two lists one for each wire. The question then is find the closest interseciton to the origin using Manhattan Distance, where the itnersection is the intersection of the two wires. The solution I approached was to make a list of each (x,y) coordiante each wire had went through. Then to find the intersection points of each wire, iterate through those and return the closest one.
 
 ### [Part two](./src/part_2.py)
 
