@@ -1,4 +1,4 @@
-## [Day 3](./src)
+# [Day 3](./src)
 
 ### [Part one](./src/part_1.py)
 
