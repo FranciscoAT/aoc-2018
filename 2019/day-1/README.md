@@ -2,6 +2,8 @@
 
 ### [Part one](./src/part_1.py)
 
+Runtime: 0.04s
+
 Part one was pretty straight-forward. All it required was to take a series of inputs and perform a calculation on each input before adding it to a running total. Where the calcuation is as follows:
 
 ```
@@ -9,6 +11,8 @@ calculated_fuel = floor(input / 3) - 2
 ```
 
 ### [Part two](./src/part_2.py)
+
+Runetime: 0.04s
 
 Part two introduces recursion. In order to calculate the correct amount of fuel for each input, we must calculate the amount of fuel needed for the calculated amount of fuel, etc.... Where the fuel calculation is the same as part one. Except recursion stops when the fuel needed is less than or equal to 0.
 

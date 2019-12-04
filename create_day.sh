@@ -9,4 +9,6 @@ touch ${dir_name}/README.md
 echo "- [Day ${1}](./day-${1})" >> ./2019/README.md
 echo "# [Day ${1}](./src)" >> ./2019/day-${1}/README.md
 echo "### [Part one](./src/part_1.py)" >> ./2019/day-${1}/README.md
+echo "Runtime: xxx" >> ./2019/day-${1}/README.md
 echo "### [Part two](./src/part_2.py)" >> ./2019/day-${1}/README.md
+echo "Runtime: xxx" >> ./2019/day-${1}/README.md
