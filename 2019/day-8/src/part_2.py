@@ -16,6 +16,8 @@ def main() -> None:
             # Replace 0 pixel with empty space for legibility
             if pixel == "0":
                 pixel = " "
+            if pixel == "1":
+                pixel = "█"
             if decoded_image[index] == "2" and pixel != "2":
                 decoded_image[index] = pixel
 
