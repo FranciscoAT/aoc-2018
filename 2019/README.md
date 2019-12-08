@@ -11,3 +11,4 @@ Merry Christmas Everyone!! Here I'll be doing a brief overview of the days chall
 - [Day 5](./day-5)
 - [Day 6](./day-6)
 - [Day 7](./day-7)
+- [Day 8](./day-8)
